@@ -3,6 +3,10 @@
 FlutterとWebRTCを利用した、iOS・Android間の音声通話デモアプリです。
 Amazon Chime SDKなどの有料通話サービスを利用せず、オープンソースの技術と自宅のAlmaLinuxサーバーを組み合わせて、発信・着信・音声通話を実現しています。
 
+<div>
+<img width="260" alt="Image" src="https://github.com/user-attachments/assets/231d0039-6fe3-436f-844e-99f94b8bf768" />&nbsp;&nbsp;
+<img width="260" alt="Image" src="https://github.com/user-attachments/assets/1d19d0fa-4388-40ad-8cc1-d61606debcd1" />
+</div>
 ## 主な機能
 
 - iOS・Android間の音声通話
