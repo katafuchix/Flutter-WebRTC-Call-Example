@@ -43,7 +43,7 @@ class _CallDemoPageState extends State<CallDemoPage> {
   final List<RTCIceCandidate> pendingCandidates = [];
   final List<String> logs = [];
 
-  String userId = 'user-b';
+  String userId = dotenv.env['USER_ID'] ?? 'user-a';
   String status = '未接続';
   String callState = 'idle';
   String? callPeer;
