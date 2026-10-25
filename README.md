@@ -51,7 +51,7 @@ Amazon Chime SDKなどの有料通話サービスを利用せず、オープン�
 - [`docs/coturn.md`](docs/coturn.md) — coturnの設定とテスト
 - [`docs/app.md`](docs/app.md) — Flutter アプリ
 - [`docs/call_test.md`](docs/call_test.md) — テスト手順
-- 
+
 ※ 各資料へのリンクは実際のファイル名に合わせて設定してください。
 
 ## 設定情報の管理
