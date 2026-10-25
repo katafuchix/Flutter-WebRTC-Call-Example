@@ -46,9 +46,10 @@ Amazon Chime SDKなどの有料通話サービスを利用せず、オープン�
 
 サーバーの構築手順、Flutterアプリの実装方法、設定ファイルなどの詳細は、別途Markdownファイルにまとめています。
 
-- **サーバー構築資料**：Node.js、Socket.IO、Apache、coturnの設定
-- **Flutter実装資料**：WebRTCの接続処理、音声通話、画面操作
-- **動作確認資料**：接続テスト、TURNの確認、トラブルシューティング
+- [`docs/overview.md`](docs/overview.md) — システム概要
+- [`docs/server.md`](docs/server.md) — Node.js、Socket.IO、Apache などのサーバー構築
+- [`docs/coturn.md`](docs/coturn.md) — coturnの設定とテスト
+- [`docs/app.md`](docs/app.md) — Flutter アプリ
 
 ※ 各資料へのリンクは実際のファイル名に合わせて設定してください。
 
