@@ -1,9 +1,16 @@
 # Flutterアプリ作成時のメモ
 
 ```
-flutter pub add flutter_webrtc socket_io_client
+flutter pub add flutter_webrtc socket_io_client flutter_dotenv
 ```
 
+```
+flutter_call_demo/
+├── .env
+├── pubspec.yaml
+└── lib/
+    └── main.dart
+```
 
 ## 1. iOSのマイク権限
 

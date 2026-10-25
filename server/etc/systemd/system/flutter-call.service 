@@ -1,0 +1,20 @@
+[Unit]
+Description=Flutter Call Socket.IO Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/flutter-call-server
+
+EnvironmentFile=/etc/flutter-call-server/server.env
+
+ExecStart=/usr/bin/node /opt/flutter-call-server/server.js
+
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

@@ -167,9 +167,12 @@ Candidate type
 relay
 
 URL: turn:your-domain.example:3478?transport=udp
+```
+
+![TURN接続のテスト結果](images/relay.png)
 
 relay候補が取得できれば、TURNサーバーへの接続・認証と中継用アドレスの割り当てが確認できます。
-```
+
 
 - DDNSによるサーバーへの接続が成功
 - coturnのTURN認証が成功
